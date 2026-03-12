@@ -7,6 +7,7 @@
 ![Status](https://img.shields.io/badge/status-stable-success)
 
 A lightweight **Dynamic DNS updater for NextDNS** written in Bash.
+
 This script automatically updates your **NextDNS Linked IP** when your public IP changes.
 
 Designed for **Linux servers, VPS environments, and homelabs**.
@@ -79,8 +80,8 @@ This ensures your NextDNS configuration always sees the correct public IP.
 ## 1 Clone the Repository
 
 ```
-git clone https://github.com/sami-alrustom/DDNS-for-NextDNS-Updater.git
-cd DDNS-for-NextDNS-Updater
+git clone https://github.com/sami-alrustom/nextdns-ddns-updater.git
+cd nextdns-ddns-updater
 ```
 
 ---
@@ -239,7 +240,7 @@ Verify in your NextDNS dashboard that your **Linked IP** has updated.
 # Repository Structure
 
 ```
-DDNS-for-NextDNS-Updater
+nextdns-ddns-updater
 │
 ├── update-nextdns.sh
 ├── logrotate-nextdns-ddns
@@ -270,4 +271,3 @@ Homelab & Networking Enthusiast
 # License
 
 This project is licensed under the **MIT License**.
-

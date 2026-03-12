@@ -42,7 +42,7 @@ Compatible with:
 * Proxmox hosts LXC/VMs
 
 Hardware:
-Recommended hardware requirements
+> Recommended hardware requirements:
 * Ram 1GB
 * CPU: 1 Core
 * Disk Size: 8GB

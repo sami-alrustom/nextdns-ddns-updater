@@ -1,3 +1,4 @@
+![NextDNS DDNS Updater Logo](nextdns-ddns-updater-logo.png.png)
 # NextDNS DDNS Updater (Linux)
 
 ![Linux](https://img.shields.io/badge/platform-linux-blue)

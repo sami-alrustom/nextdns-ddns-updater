@@ -241,28 +241,6 @@ Verify in your NextDNS dashboard that your **Linked IP** has updated.
 
 ---
 
-# Repository Structure
-
-```
-nextdns-ddns-updater
-│
-├── update-nextdns.sh
-├── logrotate-nextdns-ddns
-├── README.md
-│
-├── docs
-│   └── architecture.md
-│
-├── systemd
-│   ├── nextdns-ddns.service
-│   └── nextdns-ddns.timer
-│
-└── docker
-    └── Dockerfile
-```
-
----
-
 # Author
 
 **Sami Alrustom**

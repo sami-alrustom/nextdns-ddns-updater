@@ -1,0 +1,10 @@
+[Unit]
+Description=Run NextDNS DDNS updater every 5 minutes
+
+[Timer]
+OnBootSec=2min
+OnUnitActiveSec=5min
+Unit=nextdns-ddns.service
+
+[Install]
+WantedBy=timers.target

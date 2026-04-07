@@ -55,19 +55,7 @@ This project keeps the **NextDNS Linked IP updated automatically**.
 
 Flow of operation:
 
-Home Network
-│
-│ Public IP (ISP)
-▼
-Linux Server / VPS
-│
-│ Cron / systemd Timer / Docker
-▼
-NextDNS Update Script
-│
-│ HTTPS request
-▼
-NextDNS API Endpoint
+![Flow of operation](Flowofoperation.png)
 
 ```
 https://link-ip.nextdns.io/YOUR_TOKEN
